@@ -24,7 +24,7 @@ if selected_tab == "Universiteiten":
                 dus uiteindelijk op of het diploma wordt behaald, of dat er bijvoorbeeld studievertraging wordt opgelopen. Op het Polytechnic Institute Of Portalegre is hier onderzoek naar gedaan, waaruit een dataset \
                 is gevolgd met variabelen gerelateerd aan de slagingsstatus van studenten, gevisualiseerd in dit dashboard. (Links in de balk kan er genavigeerd worden tussen de variabelen.)")
     st.subheader("Geospatiale inspectie universiteiten Portugal")
-    st.markdown("De belangrijkste Portugese universiteiten zijn hieronder weergegeven, met het Polytechnic Institute Of Portalegrede rood gekleurd. De meeste universiteiten in Portugal zijn gelegen aan de meer dichtbevolkte \
+    st.markdown("De belangrijkste Portugese universiteiten zijn hieronder weergegeven, met het Polytechnic Institute Of Portalegrede rood gekleurd (refresh de pagina wanneer de markers niet goed worden weergegeven). De meeste universiteiten in Portugal zijn gelegen aan de meer dichtbevolkte \
                  kustlijn, met hoofdstad Lissabon als koploper beschikkend over vier universiteiten. Zonder specifieke data-ondersteuning begint hier de eerste variabele die invloed heeft op de slagingsstatus van studenten: de afstand tot de universiteit.\
                     Studenten die lang moeten reizen naar de universiteit halen vaak lagere cijfers omdat zij hun tijd minder goed gebruiken en minder aanwezig zijn (Nederlands Dagblad, 2015).")
 # Inhoud van Tab 1
