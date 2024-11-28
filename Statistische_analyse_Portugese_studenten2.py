@@ -123,7 +123,7 @@ if selected_tab == "Geslacht":
         )
     
         st.plotly_chart(fig)
-
+  st.markdown("Refresh de pagina als de markers niet goed worden weergegeven")
 # Inhoud van Tab 2
 elif selected_tab == "Leeftijd":
     st.subheader("Je bent nooit te oud om te leren! Of toch wel?")
