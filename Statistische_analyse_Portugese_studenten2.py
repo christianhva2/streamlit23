@@ -556,7 +556,7 @@ elif selected_tab == "Studieschulden":
 
     image_option = st.checkbox("Toon Portugese cijfersysteem", value=False)
     if image_option:
-        st.error("Afbeelding niet gevonden. Controleer het bestandspad!")
+        st.image('afbeelding.png', caption='Cijfersysteem in Portugal (gradecalculator, 2021)', use_column_width=True)
         
     st.markdown("De grafiek laat zien dat de studenten met studieschulden met gemiddeld een iets lager cijfer hun vakken halen dan hun medestudenten zonder schulden. Daarnaast zijn er bij de studenten zonder schulden vaker \
                 uitschieters te zien richting de perfecte score tijdens een beoordelingsmoment. De variabele studieschuld lijkt dus de slagingsstatus van studenten tamelijk te beïnvloeden.")
