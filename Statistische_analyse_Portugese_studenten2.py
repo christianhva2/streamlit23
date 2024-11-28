@@ -44,7 +44,7 @@ if selected_tab == "Universiteiten":
     icon=folium.Icon(icon = 'check', color='red')).add_to(m)
         
     st_folium(m)
-        
+    st.markdown("Refresh de pagina als de markers niet goed worden weergegeven")    
 if selected_tab == "Geslacht":
     st.subheader("Diploma behaald of niet? Afhankelijk van je geslacht!")
     st.markdown("De tweede variabele die invloed heeft op de slagingsstatus is het geslacht. Al jarenlang is er een duidelijke trend te zien tussen de studieresultaten van mannen en vrouwen, vrouwen studeren namelijk \
@@ -123,7 +123,7 @@ if selected_tab == "Geslacht":
         )
     
         st.plotly_chart(fig)
-  st.markdown("Refresh de pagina als de markers niet goed worden weergegeven")
+      
 # Inhoud van Tab 2
 elif selected_tab == "Leeftijd":
     st.subheader("Je bent nooit te oud om te leren! Of toch wel?")
